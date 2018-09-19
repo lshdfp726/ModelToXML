@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		668ED43B8114386CDFA0B412 /* libPods-DataAnalysis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5304EE7878F4D6BA3EEE6D82 /* libPods-DataAnalysis.a */; };
+		A725C20A2151F1AF009422DD /* ModelToXMLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A725C2062151F1AF009422DD /* ModelToXMLManager.m */; };
+		A725C20B2151F1AF009422DD /* NSObject+NewModelToXML.m in Sources */ = {isa = PBXBuildFile; fileRef = A725C2072151F1AF009422DD /* NSObject+NewModelToXML.m */; };
+		A725C20F2151F472009422DD /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A725C20E2151F472009422DD /* TestModel.m */; };
 		A7B774B320EB68F6004F9D8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B774B220EB68F6004F9D8D /* AppDelegate.m */; };
 		A7B774B620EB68F6004F9D8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B774B520EB68F6004F9D8D /* ViewController.m */; };
 		A7B774B920EB68F6004F9D8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B774B720EB68F6004F9D8D /* Main.storyboard */; };
@@ -35,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000E5C475C34C42EEE2874B4 /* Pods-DataAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataAnalysis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataAnalysis/Pods-DataAnalysis.debug.xcconfig"; sourceTree = "<group>"; };
+		3C2DC9A2CF51F1586E12CE86 /* Pods-DataAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataAnalysis.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataAnalysis/Pods-DataAnalysis.release.xcconfig"; sourceTree = "<group>"; };
+		5304EE7878F4D6BA3EEE6D82 /* libPods-DataAnalysis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DataAnalysis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A725C2062151F1AF009422DD /* ModelToXMLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelToXMLManager.m; sourceTree = "<group>"; };
+		A725C2072151F1AF009422DD /* NSObject+NewModelToXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NewModelToXML.m"; sourceTree = "<group>"; };
+		A725C2082151F1AF009422DD /* ModelToXMLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelToXMLManager.h; sourceTree = "<group>"; };
+		A725C2092151F1AF009422DD /* NSObject+NewModelToXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NewModelToXML.h"; sourceTree = "<group>"; };
+		A725C20C2151F1BF009422DD /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = "/Users/liusonghong/Desktop/学习知识/DataAnalysis/DataAnalysis/ModelToXML/README"; sourceTree = "<absolute>"; };
+		A725C20D2151F472009422DD /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		A725C20E2151F472009422DD /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		A7B774AE20EB68F6004F9D8D /* DataAnalysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataAnalysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B774B120EB68F6004F9D8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7B774B220EB68F6004F9D8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668ED43B8114386CDFA0B412 /* libPods-DataAnalysis.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AD0C4E85FBB324F1D8C8B72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				000E5C475C34C42EEE2874B4 /* Pods-DataAnalysis.debug.xcconfig */,
+				3C2DC9A2CF51F1586E12CE86 /* Pods-DataAnalysis.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D5F71A14D84022B408C4F9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5304EE7878F4D6BA3EEE6D82 /* libPods-DataAnalysis.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A725C2022151F147009422DD /* ModelToXML */ = {
+			isa = PBXGroup;
+			children = (
+				A725C20C2151F1BF009422DD /* README */,
+				A725C2082151F1AF009422DD /* ModelToXMLManager.h */,
+				A725C2062151F1AF009422DD /* ModelToXMLManager.m */,
+				A725C2092151F1AF009422DD /* NSObject+NewModelToXML.h */,
+				A725C2072151F1AF009422DD /* NSObject+NewModelToXML.m */,
+				A725C20D2151F472009422DD /* TestModel.h */,
+				A725C20E2151F472009422DD /* TestModel.m */,
+			);
+			path = ModelToXML;
+			sourceTree = "<group>";
+		};
 		A7B774A520EB68F6004F9D8D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +131,8 @@
 				A7B774C920EB68F8004F9D8D /* DataAnalysisTests */,
 				A7B774D420EB68F8004F9D8D /* DataAnalysisUITests */,
 				A7B774AF20EB68F6004F9D8D /* Products */,
+				0AD0C4E85FBB324F1D8C8B72 /* Pods */,
+				5D5F71A14D84022B408C4F9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +149,7 @@
 		A7B774B020EB68F6004F9D8D /* DataAnalysis */ = {
 			isa = PBXGroup;
 			children = (
+				A725C2022151F147009422DD /* ModelToXML */,
 				A7B774B120EB68F6004F9D8D /* AppDelegate.h */,
 				A7B774B220EB68F6004F9D8D /* AppDelegate.m */,
 				A7B774B420EB68F6004F9D8D /* ViewController.h */,
@@ -139,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7B774DA20EB68F8004F9D8D /* Build configuration list for PBXNativeTarget "DataAnalysis" */;
 			buildPhases = (
+				9D92492CE7B99FAD14412951 /* [CP] Check Pods Manifest.lock */,
 				A7B774AA20EB68F6004F9D8D /* Sources */,
 				A7B774AB20EB68F6004F9D8D /* Frameworks */,
 				A7B774AC20EB68F6004F9D8D /* Resources */,
+				3A4389B3F4DF3433BD8142B6 /* [CP] Embed Pods Frameworks */,
+				00AD0F1CA324390071AB34BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +309,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00AD0F1CA324390071AB34BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataAnalysis/Pods-DataAnalysis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A4389B3F4DF3433BD8142B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataAnalysis/Pods-DataAnalysis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D92492CE7B99FAD14412951 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataAnalysis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A7B774AA20EB68F6004F9D8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A7B774B620EB68F6004F9D8D /* ViewController.m in Sources */,
+				A725C20A2151F1AF009422DD /* ModelToXMLManager.m in Sources */,
 				A7B774C120EB68F8004F9D8D /* main.m in Sources */,
+				A725C20F2151F472009422DD /* TestModel.m in Sources */,
+				A725C20B2151F1AF009422DD /* NSObject+NewModelToXML.m in Sources */,
 				A7B774B320EB68F6004F9D8D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +537,7 @@
 		};
 		A7B774DB20EB68F8004F9D8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000E5C475C34C42EEE2874B4 /* Pods-DataAnalysis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +555,7 @@
 		};
 		A7B774DC20EB68F8004F9D8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C2DC9A2CF51F1586E12CE86 /* Pods-DataAnalysis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
